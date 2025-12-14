@@ -1,0 +1,37 @@
+{
+  "query_id": "msg_004",
+  "retrieved_documents": [
+    {
+      "id": "doc_001",
+      "text": "Python 3.11 is between 10-60% faster than Python 3.10 according to the standard benchmark suite. On average, we measured a 1.25x speedup on the standard benchmark suite. The speedup comes from various optimizations including: Faster startup (10-15% improvement), Faster runtime execution through specialized adaptive interpreter, Zero-cost exceptions in the common (no exception raised) case, Faster calls due to inlined Python function calls.",
+      "score": 0.92,
+      "metadata": {
+        "source": "python_3.11_docs",
+        "section": "performance",
+        "url": "https://docs.python.org/3.11/whatsnew/3.11.html"
+      }
+    },
+    {
+      "id": "doc_002",
+      "text": "The main performance improvements in Python 3.11 include: CPython 3.11 is on average 25% faster than CPython 3.10 when measured with the pyperformance benchmark suite. Depending on your workload, the speedup could be up to 10-60% faster. This is achieved through the Faster CPython project which includes optimizations to frame objects, method and function calls, and the eval loop.",
+      "score": 0.89,
+      "metadata": {
+        "source": "python_release_notes",
+        "section": "performance_benchmarks",
+        "version": "3.11.0"
+      }
+    },
+    {
+      "id": "doc_003",
+      "text": "Python 3.11 introduces several new features beyond performance: Enhanced error messages showing exact error locations, Exception Groups for handling multiple exceptions simultaneously, New typing features including Self type and TypeVarTuple for variadic generics, TOML parsing support via tomllib module, Asynchronous comprehension improvements, and several standard library enhancements.",
+      "score": 0.75,
+      "metadata": {
+        "source": "python_3.11_features",
+        "section": "new_features"
+      }
+    }
+  ],
+  "query_text": "How much faster is it compared to Python 3.10?",
+  "num_results": 3,
+  "retrieval_time_ms": 45.2
+}
